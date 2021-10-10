@@ -1,8 +1,8 @@
 package com.retrofit.api;
 
+import com.retrofit.model.Category;
 import com.retrofit.model.ProductDto;
 import okhttp3.ResponseBody;
-import org.apache.log4j.Category;
 import retrofit2.Call;
 import retrofit2.http.*;
 

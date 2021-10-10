@@ -37,7 +37,7 @@ public class MiniMarketApiTest {
     @Order(1)
     @DisplayName("Получение продукта")
     void getProduct() throws IOException {
-        ProductDto dto = miniMarketService.getProduct(4)
+        ProductDto dto = miniMarketService.getProduct(13)
                 .execute()
                 .body();
         System.out.println("product: " + dto);
